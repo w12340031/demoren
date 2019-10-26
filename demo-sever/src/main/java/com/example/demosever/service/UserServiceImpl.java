@@ -7,6 +7,6 @@ import org.apache.dubbo.config.annotation.Service;
 public class UserServiceImpl implements UserService {
     @Override
     public String add() {
-        return "累了...";
+        return "渴了...";
     }
 }
