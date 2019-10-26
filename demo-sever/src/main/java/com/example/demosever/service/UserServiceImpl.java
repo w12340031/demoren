@@ -9,4 +9,9 @@ public class UserServiceImpl implements UserService {
     public String add() {
         return "渴了...困了，累了，咰水";
     }
+
+    @Override
+    public int sub(int max, int min) {
+        return max - min;
+    }
 }
