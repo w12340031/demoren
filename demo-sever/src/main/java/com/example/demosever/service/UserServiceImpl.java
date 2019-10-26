@@ -13,6 +13,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int sub(int max, int min) {
-        return max - min;
+
+        return max +min;
     }
 }
