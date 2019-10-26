@@ -10,4 +10,9 @@ public class UserServiceImpl implements UserService {
         System.out.println("你去买饭去吧...你去吧");
         return "渴了...饿了";
     }
+
+    @Override
+    public int sub(int max, int min) {
+        return max - min;
+    }
 }

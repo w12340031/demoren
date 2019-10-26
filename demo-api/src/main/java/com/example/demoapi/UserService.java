@@ -1,5 +1,7 @@
 package com.example.demoapi;
 
 public interface UserService {
-    public String add();
+	String add();
+
+	int sub(int max, int min);
 }
